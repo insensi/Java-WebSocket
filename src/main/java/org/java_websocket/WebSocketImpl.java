@@ -509,6 +509,7 @@ public class WebSocketImpl implements WebSocket {
 		if( draft != null )
 			draft.reset();
 		handshakerequest = null;
+		this.eot();
 	}
 
 	public void eot() {
